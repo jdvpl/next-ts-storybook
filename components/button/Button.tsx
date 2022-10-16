@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { css, SerializedStyles } from "@emotion/react";
 import { MouseEvent } from "react";
-import { AppTheme } from "../styles/themes";
+import { AppTheme } from "@/styles/themes";
 export type Color = "primary" | "secondary" | "danger" | "warning";
 export type Props = {
   children?: string;
