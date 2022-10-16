@@ -3,7 +3,7 @@ import { css, SerializedStyles } from "@emotion/react";
 import { MouseEvent } from "react";
 export type Color = "primary" | "secondary" | "danger" | "warning";
 export type Props = {
-  children: string;
+  children?: string;
   color?: Color;
   onClick: (e: MouseEvent<HTMLButtonElement>) => void;
 };
