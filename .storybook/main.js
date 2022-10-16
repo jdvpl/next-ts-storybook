@@ -20,6 +20,7 @@ module.exports = {
     },
     // End PostCSS
   ],
+
   framework: "@storybook/react",
   core: {
     builder: "webpack5",
