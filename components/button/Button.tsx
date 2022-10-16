@@ -4,7 +4,7 @@ import { MouseEvent } from "react";
 /* Importing the AppTheme type from the themes.ts file in the styles folder. */
 import { AppTheme } from "@/styles/themes";
 /* Importing the boxShadow and transition functions from the styles.ts file in the components folder. */
-import { boxShadow, transition } from "../styles";
+import { boxShadow, transition } from "@/components/styles";
 export type Color = "primary" | "secondary" | "danger" | "warning";
 export type Props = {
   children?: string;
