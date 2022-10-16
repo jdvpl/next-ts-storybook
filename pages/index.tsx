@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import "../styles/globals.css";
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -54,8 +53,28 @@ const Home: NextPage = () => {
         </div>
       </main>
 
+      <div className="hover:border-primario-400 mb-4 card-shipping relative xl:flex flex md:flex sm:flex-row items-center w-full px-[16px] rounded-l-lg shadow-lg select-none py-[20px] cursor-pointer rounded-r-xl bg-smmoth border border-azul_gris-80 active">
+        <div className="icon-shipping h-[4.25rem] max-w-[4rem] max-h-[4.25rem] mim-w-[4rem] min-h-[4.25rem] mr-5 justify-center w-full flex items-center rounded-[0.75rem] bg-gris-90">
+          <i className="icon-ds-bcs bcs-home text-[1.6875rem] text-primario-400"></i>
+        </div>
+        <label className="label-shipping" htmlFor="shipping-home">
+          <div>
+            <p className="text-[1.125rem] font-semibold leading-8 text-primario-900 m-0 tracking-normal">
+              Label
+            </p>
+            <p className="font-light leading-[1.125rem] text-[0.875rem] m-0 tracking-normal text-azul_gris-100">
+              Description
+            </p>
+          </div>
+        </label>
+        <label className="input-shipping radio">
+          <input type="radio" name="radio" className="hidden" />
+          <span className="hover:border-azul_gris-50 absolute inline-block w-8 h-8 bg-white border rounded-full top-[calc(50%-1rem)] right-4 check-border-check-blue border-azul_gris-80"></span>
+        </label>
+      </div>
+
       <footer className={styles.footer}>
-        <i className="icon-ds-bcs bcs-home text-[1.6875rem] text-primario-400"></i>
+        <i className="icon-ds-bcs bcs-home text-[3.6875rem] text-primario-400 text-red-500 font-bold"></i>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
