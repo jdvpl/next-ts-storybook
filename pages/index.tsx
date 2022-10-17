@@ -47,7 +47,7 @@ const Home: NextPage = () => {
         </div>
       </div>
 
-      <div className="hover:border-primario-400 mb-4 card-shipping relative xl:flex flex md:flex sm:flex-row items-center w-full px-[16px] rounded-l-lg shadow-lg select-none py-[20px] cursor-pointer rounded-r-xl bg-smmoth border border-azul_gris-80 active">
+      <div className="bg-white hover:border-primario-400 mb-4 card-shipping relative xl:flex flex md:flex sm:flex-row items-center w-full px-[16px] rounded-l-lg shadow-lg select-none py-[20px] cursor-pointer rounded-r-xl bg-smmoth border border-azul_gris-80 active">
         <div className="icon-shipping h-[4.25rem] max-w-[4rem] max-h-[4.25rem] mim-w-[4rem] min-h-[4.25rem] mr-5 justify-center w-full flex items-center rounded-[0.75rem] bg-gris-90">
           <i className="icon-ds-bcs bcs-home text-[1.6875rem] text-primario-400"></i>
         </div>
