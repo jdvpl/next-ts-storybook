@@ -31,8 +31,8 @@ const withGlobalStyles = (Story, context) => (
 export const decorators = [withThemeProvider, withGlobalStyles];
 export const parameters = {
   backgrounds: {
-    default: "light",
-    defaultColor: "#e4ebf5",
+    default: "dark",
+    defaultColor: "#5e5c64",
     values: [
       { name: "dark", value: "#5e5c64" },
       { name: "light", value: "#e4ebf5" },
