@@ -9,7 +9,8 @@
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "test": "jest"
+    "test": "jest",
+    "chromatic": "npx chromatic --project-token=3b3e4a5ba29c"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",

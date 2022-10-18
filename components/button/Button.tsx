@@ -4,7 +4,7 @@ import { MouseEvent } from "react";
 /* Importing the AppTheme type from the themes.ts file in the styles folder. */
 import { AppTheme } from "@/styles/themes";
 /* Importing the boxShadow and transition functions from the styles.ts file in the components folder. */
-import { boxShadow, transition } from "@/components/styles";
+import { boxShadow, transition, borderRadius } from "@/components/styles";
 export type Color = "primary" | "secondary" | "danger" | "warning";
 export type Props = {
   children: string;
@@ -45,6 +45,7 @@ export const Button = styled.button<Props>`
   height: 4rem;
   border-radius: 1rem;
   transition: all 0.4s ease;
+  ${borderRadius};
   ${({ color, theme }) => getColors(theme, color)}
   ${transition()}
   ${({ theme }) =>

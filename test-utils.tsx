@@ -3,7 +3,10 @@ import { render, RenderOptions } from "@testing-library/react";
 import { ThemeProvider } from "@emotion/react";
 import { Themes } from "./styles/themes";
 
-const Wrapper: FC = ({ children }) => (
+type PropsWrapper = {
+  children?: JSX.Element;
+};
+const Wrapper: FC<PropsWrapper> = ({ children }) => (
   <ThemeProvider theme={Themes.light}>{children}</ThemeProvider>
 );
 
