@@ -11,3 +11,9 @@ yarn dev
 ```
   yarn storybook
 ```
+
+### update snapshots
+
+```
+  npm test -- -u
+```
